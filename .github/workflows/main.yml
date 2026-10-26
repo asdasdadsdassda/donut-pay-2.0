@@ -1,4 +1,4 @@
-ame: Build DonutPay
+name: Build DonutPay
 on:
   push:
   workflow_dispatch:
