@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donutpay",
+  "version": "${version}",
+  "name": "DonutPay",
+  "description": "Adds Win / Lose / Refund buttons next to incoming payments.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.donutpay.DonutPayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
